@@ -6,7 +6,7 @@ import java.util.List;
 
 import static java.lang.Thread.sleep;
 
-@SuppressWarnings("BusyWait")
+@SuppressWarnings({"BusyWait", "ResultOfMethodCallIgnored"})
 public class Game {
     Game() throws InterruptedException, IOException {
         System.out.println("Press Enter to continue...");
