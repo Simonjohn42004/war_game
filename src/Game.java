@@ -1,5 +1,6 @@
 import card.Card;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +8,9 @@ import static java.lang.Thread.sleep;
 
 @SuppressWarnings("BusyWait")
 public class Game {
-    Game() throws InterruptedException {
+    Game() throws InterruptedException, IOException {
+        System.out.println("Press Enter to continue...");
+        System.in.read();
         Deck deck = new Deck();
         List<List<Card>> cards = deck.deal();
         Player player1 = new Player(cards.get(0));

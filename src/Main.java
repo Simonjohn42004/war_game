@@ -1,6 +1,7 @@
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, IOException {
         System.out.println("🎮 Welcome to the WAR Card Game! 🃏");
         System.out.println("------------------------------------");
         System.out.println("Rules of the Game:");
