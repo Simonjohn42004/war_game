@@ -84,7 +84,6 @@ public class Game {
                         System.out.println("Player 1 and Player 2 have put 4 of their cards down");
                         System.out.println("Player 1's face up card is : " + player1LastCard.toString());
                         System.out.println("Player 2's face up card is : " + player2LastCard.toString());
-
                         sleep(4000);
 
                         int currentWinner = getWinner(player1LastCard, player2LastCard);
