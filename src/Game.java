@@ -113,6 +113,8 @@ public class Game {
                 // Games end with the person with the most power in his deck
                 int player1Power = player1.calculatePowerOfDeck();
                 int player2Power = player2.calculatePowerOfDeck();
+                System.out.println("Power of player 1 : " + player1Power);
+                System.out.println("Power of player 2 : " + player2Power);
                 if(player1Power > player2Power){
                     player2.removeAllCards();
                 } else if(player2Power > player1Power){
